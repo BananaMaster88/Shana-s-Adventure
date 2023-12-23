@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shanna's Adventure</title>
+    <style>
+      body {
+        background-color: rgb(0, 204, 255);
+      }
+      img {
+        display: none;
+        height: 3000px;
+        width: 3000px;
+      }
+      button {
+        color: rgb(197, 255, 135);
+        background-color: transparent;
+        border: transparent;
+        margin-right: 80000px;
+        position: absolute;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Hey, Shanna. We have chosen you to find the lost kitkat of Mineep Eenys.</h2>
+    <p>To do this, you must traverse the symmetrical trail, but the other half is missing! Good luck...</p>
+    <br>
+    <br>
+    <h4>This will be your map:</h4>
+    <a href="https://bananamaster88.github.io/Background/canvas.png">MAP</a>
+    <button onclick="reveal()">kitkat?</button>
+    <img syle.left="5000px" style.bottom="5000px" id="kitkat" src='https://ik.imagekit.io/pimberly/595e406f0f15f30010780448/tr:w-1000,h-1000,cm-pad_resize/28aec008/5ea04c24723a77334f0001f0/7b335699/NL24675_01.jpg?product_name=Nestle-KitKat-Four-Finger-Milk-Chocolate-(Pack-of-24)-12351222.jpg'>
+    <script>
+      function reveal() {
+        document.getElementById(`kitkat`)
+          .style.display="block";
+      }
+      document.querySelector('button').style.left="2000px";
+      document.querySelector('button').style.top="1400px";
+    </script>
+  </body>
+</html>
